@@ -1,0 +1,43 @@
+name: Auto Update Timestamp
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'  # Every 20 minutes
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Update README
+      run: |
+        # Set timezone to Jakarta
+        export TZ='Asia/Jakarta'
+        current_time=$(date '+%Y-%m-%d - %H:%M:%S')
+        
+        # Update or add timestamp at the end of README
+        if grep -q "> [0-9]" README.md; then
+          sed -i "s/> [0-9].*$/> $current_time/" README.md
+        else
+          echo "" >> README.md
+          echo "> $current_time" >> README.md
+        fi
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+        git config --local user.name "${{ github.actor }}"
+        
+        if git diff --quiet; then
+          echo "No changes"
+          exit 0
+        fi
+        
+        git add README.md
+        git commit -m "Update timestamp: $(TZ='Asia/Jakarta' date '+%Y-%m-%d %H:%M:%S')"
+        git push
