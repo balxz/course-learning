@@ -1,197 +1,294 @@
-Web UI yang dapat membantu anda belajar atau runtuntan yang relevan dan mudah dipahami.
+# penetration testing roadmap
 
-https://securitycipher.com/penetration-testing-roadmap/
+> Web UI yang dapat membantu anda belajar dengan runtutan yang relevan dan mudah dipahami.
 
-🎓 Certifications  
-- CEH  
-- CISSP  
-- CompTIA Security+  
-- OSCP  
-- OSWE  
-- OSWP  
-- eJPT  
+(https://securitycipher.com/penetration-testing-roadmap/)
+## > Payload XSS :
+(https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 
-☁️ Cloud  
-Learn about cloud security and related technologies:  
-- AWS  
-- Azure  
-- CIS Benchmark  
-- CloudSploit  
-- Conformity Knowledge Base  
-- Content Delivery Network (CDN)  
-- GCP  
-- Hybrid Cloud  
-- IaaS  
-- OCI  
-- PaaS  
-- Private Cloud  
-- Public Cloud  
-- SaaS  
-- ScoutSuite  
-- Serverless  
-- Top Cloud Security Risks  
+## 📖 Daftar Isi
 
-⚖️ Compliance  
-Understand various compliance frameworks:  
-- GDPR  
-- HIPAA  
-- ISO 27001  
-- PCI-DSS  
-- RBI  
+- [Sertifikasi](#-sertifikasi)
+- [Cloud Security](#️-cloud-security)
+- [Compliance](#️-compliance)
+- [Cryptography](#-cryptography)
+- [Labs & Practice](#-labs--practice)
+- [Networking](#-networking)
+- [OWASP Top 10](#-owasp-top-10)
+- [OWASP Top 10 LLM](#-owasp-top-10-llm)
+- [Operating Systems](#️-operating-systems)
+- [Security Testing](#️-security-testing)
+- [Terminology](#-terminology)
+- [Threat Modeling](#-threat-modeling)
+- [Tools](#️-tools)
+- [Vulnerabilities](#-vulnerabilities)
+- [Pengalaman & Tips](#️-pengalaman--tips)
+- [Sumber Daya Tambahan](#-sumber-daya-tambahan)
 
-🔑 Cryptography  
-Explore cryptographic concepts and techniques:  
-- Certificate Authority (CA)  
-- Digital Signature  
-- Encryption and Decryption  
-- Hashing  
-- Obfuscation  
-- Public Key Infrastructure (PKI)  
-- SSL Handshake  
-- Salting  
+---
 
-🧪 Labs  
-Get hands-on experience with various labs:  
-- Altoro Mutual  
-- HackTheBox  
-- Root Me  
-- TryHackMe  
-- VulHub  
-- Web Security Academy  
-- pwn.college  
+## 🎓 Sertifikasi
 
-🌐 Networking  
-Understand networking fundamentals and security:  
-- Common Protocols  
-- IDS  
-- IPS  
-- Network Topologies  
-- OSI Model  
-- Types of Networks  
-- VPN  
+- **CEH** (Certified Ethical Hacker)
+- **CISSP** (Certified Information Systems Security Professional)
+- **CompTIA Security+**
+- **OSCP** (Offensive Security Certified Professional)
+- **OSWE** (Offensive Security Web Expert)
+- **OSWP** (Offensive Security Wireless Professional)
+- **eJPT** (eLearnSecurity Junior Penetration Tester)
 
-🔍 OWASP Top 10  
-Explore the OWASP Top 10 vulnerabilities:  
-- Broken Access Control  
-- Cryptographic Failures  
-- Identification and Authentication Failures  
-- Injection  
-- Insecure Design  
-- SSRF  
-- Security Logging and Monitoring Failures  
-- Security Misconfiguration  
-- Software and Data Integrity Failures  
-- Vulnerable and Outdated Components  
+## ☁️ Cloud Security
 
-🔐 OWASP Top 10 LLM  
-Understand the OWASP Top 10 for Language Model Security:  
-- Excessive Agency  
-- Insecure Output Handling  
-- Insecure Plugin Design  
-- Model Denial of Service  
-- Model Theft  
-- Overreliance  
-- Prompt Injection  
-- Sensitive Information Disclosure  
-- Supply Chain Vulnerabilities  
-- Training Data Poisoning  
+Pelajari keamanan cloud dan teknologi terkait:
 
-🖥️ Operating System  
-Learn about different operating systems and their security:  
-- Android  
-- Linux  
-- MacOS  
-- Operating System Hardening  
-- Windows  
+- AWS (Amazon Web Services)
+- Microsoft Azure
+- Google Cloud Platform (GCP)
+- Oracle Cloud Infrastructure (OCI)
+- CIS Benchmark
+- CloudSploit
+- Conformity Knowledge Base
+- Content Delivery Network (CDN)
+- ScoutSuite
+- Cloud Models:
+  - IaaS (Infrastructure as a Service)
+  - PaaS (Platform as a Service)  
+  - SaaS (Software as a Service)
+  - Public Cloud
+  - Private Cloud
+  - Hybrid Cloud
+  - Serverless
+- Top Cloud Security Risks
 
-🛡️ Security Testing Approaches  
-Explore various security testing methodologies:  
-- DAST  
-- IAST  
-- SAST  
-- SCA  
-- Testing Approaches  
+## ⚖️ Compliance
 
-📚 Terminology  
-Understand key terminology used in security:  
-- CVE  
-- CVSS  
-- DMZ  
-- Defense in Depth  
-- Honeypots  
-- Jump Server  
-- MFA vs 2FA  
-- NIST Cybersecurity Framework  
-- OAuth 2.0  
-- SAML  
-- SIEM  
-- SSO  
+Pahami berbagai framework compliance:
 
-💡 Threat Modeling  
-Learn about threat modeling methodologies:  
-- PASTA  
-- STRIDE  
-- Threat Modeling  
+- **GDPR** (General Data Protection Regulation)
+- **HIPAA** (Health Insurance Portability and Accountability Act)
+- **ISO 27001**
+- **PCI-DSS** (Payment Card Industry Data Security Standard)
+- **RBI** (Reserve Bank of India)
 
-🛠️ Tools  
-Discover tools commonly used in penetration testing:  
-- Aircrack-ng  
-- Burp Suite  
-- Metasploit  
-- Nmap  
-- SQLMap  
-- Wireshark  
-- ZAP Proxy  
+## 🔑 Cryptography
 
-🐞 Vulnerabilities  
-Understand different types of vulnerabilities:  
-- Buffer Overflow  
-- CSRF  
-- Clickjacking  
-- DNS Cache Poisoning  
-- Directory Traversal  
-- HTTP Parameter Pollution  
-- HTTP Request Smuggling  
-- Host Header Injection  
-- IDOR  
-- Insecure Deserialization  
-- LDAP Injection  
-- Open Redirect  
-- Privilege Escalation  
-- RCE  
-- Race Condition  
-- SQL Injection  
-- Server-Side Template Injection  
-- Session Fixation  
-- Session Hijacking  
-- Unrestricted File Upload  
-- XML Injection  
-- XSS  
-- XXE
-  
-- ⚠️! Pengalaman saya
-1️⃣ peretasan media sosial:
-Banyak orang yang masuk ke peretasan untuk hanya meretas teman -teman mereka, melumpuhkan akun media sosial, dan mereka hanya melakukannya dan meninggalkannya, izinkan saya memberi tahu Anda satu hal bahwa tidak mungkin untuk meretas segala jenis media sosial karena para profesional TI yang bekerja di perusahaan -perusahaan itu jauh lebih cerdas daripada Anda, tidak ada yang membuat karier seperti ini, dan tidak ada yang menggunakannya, tetapi tidak ada yang menggunakan keterampilan teknik Anda, tidak ada yang membuat ini hanya membuat Anda tidak bisa melakukan hal yang sama, dan tidak ada yang membuat Anda tidak bisa melakukan hal -hal yang tidak dapat digunakan dengan keterampilan teknik, dan tidak ada yang membuat Anda tidak bisa melakukan hal yang sama dengan keterampilan teknik, dan tidak ada yang bisa dilepaskan pada ini, dan tidak ada yang bisa dilepaskan dengan keterampilan teknik Anda, dan tidak ada yang bisa dilepaskan dengan keterampilan teknik Anda, dan tidak ada yang membuat Anda tidak bisa melakukan hal ini pada keterampilan teknik sosial Anda.
-Dokter, insinyur, dll. Bayangkan seorang dokter mengoperasikan salah satu pasiennya (yang dulunya musuhnya), apa yang akan terjadi pada pasien?
-Dokter hanya akan mengatakan bahwa mereka tidak melakukan kesalahan apa pun sehingga dia bisa pergi, meretas akun orang lain seperti itu, Anda tidak tahu apa yang bisa terjadi dengan ID mereka dan jika Anda melakukan sesuatu yang salah di dalamnya (hanya untuk bersenang -senang), itu dapat merusak seluruh struktur sosial korban dan meninggalkan bekas luka di hidupnya
-2️⃣ Saat Anda bertemu dengan beberapa orang profesional/lebih berpengalaman di Plaftorms online
-Setiap kali Anda menemukan orang -orang seperti itu, Anda hanya berhenti melakukan riset sendiri yang biasa Anda lakukan lebih awal alih -alih, Anda hanya mengajukan masalah dan pertanyaan kepada mereka, ini tidak hanya mengurangi peluang perbaikan Anda dan kadang -kadang mengganggu orang lain, jadi saya akan menyarankan lebih baik membuat batas waktu sampai Anda akan mencoba level Anda untuk menemukan solusi untuk masalah Anda, menggunakan semua metode seperti Google, AI, Forum dan SEMUA, kemudian hanya berkonsultasi dengan seseorang, hanya berkonsultasi dengan seseorang yang berkonsultasi dengan seseorang, Gunakan Google seperti Google, AI, Forum dan SEMUA, kemudian hanya berkonsultasi dengan seseorang yang berkonsultasi dengan seseorang dan hanya berkonsultasi dengan seseorang, seseorang, hanya berkonsultasi dengan seseorang yang berkonsultasi dengan seseorang, menggunakan Forume, dan Only One Only Forume, kemudian hanya berkonsultasi dengan seseorang yang berkonsultasi dengan seseorang.
-👽 beberapa harus menyebutkan sumber daya yang belum disebutkan:
--> http://phrack.org/
--> (http://phrack.org/issues/7/3.html) ---> harus membaca⚠️
--> https://gtfobins.github.io/
--> https://online.champlain.edu/blog/top-cybersecurity-skills-in-high-demand
--> https://www.uscsinstitute.org/cybersecurity-insights/blog/most-in-demand-cybersecurity-skills-you-must-have-in-2025
--> https://www.techtarget.com/whatis/feature/5-top-cybersecurity-careers
-Teliti melalui tiga situs web cybersecurity terakhir ini dan temukan domain yang sesuai dengan minat Anda, Anda juga dapat menggunakan AIS untuk penelitian
-Catatan terakhir dan penting: peretasan bukanlah hal -hal ajaib Harry Potter, Anda tidak bisa hanya meretas apa pun tanpa membuat rencana yang tepat, jadi jangan menganggapnya mudah, jangan mencari uang (itu seharusnya menjadi alasan sampingan dan bukan utama), pergi untuk minat (karena alasan utama Anda) yang menguasai lapangan ini dengan banyak waktu, kadang -kadang Anda menemukan waktu, kadang -kadang Anda menemukan waktu, kadang -kadang Anda menemukan waktu, kadang -kadang Anda menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak akan menemukan waktu, suatu hari Anda tidak akan menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak akan menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak dapat menemukan waktu, suatu hari Anda tidak akan menemukan waktu, suatu hari Anda tidak akan menemukan waktu.
-Keterampilan dan Pengetahuan) Untuk menemukan bug/kerentanan, karena 90% dari tugas -tugas terkait peretasan (apakah jika itu adalah serangan cyber atau meretas perangkat orang lain atau pelanggaran/kebocoran data) dilakukan melalui eksploitasi bug/kerentanan/kerentanan kritis pada sistem, (kadang -kadang merantai kerentanan kecil untuk menciptakan kerentanan yang lebih kritis).
-Jadi jika Anda menemukannya, laporkan segera pada program karunia bug perusahaan, Anda akan mendapatkan barang curian, Hall of Fame, dan uang juga
+Jelajahi konsep dan teknik kriptografi:
+
+- Certificate Authority (CA)
+- Digital Signature
+- Encryption and Decryption
+- Hashing
+- Obfuscation
+- Public Key Infrastructure (PKI)
+- SSL Handshake
+- Salting
+
+## 🧪 Labs & Practice
+
+Dapatkan pengalaman hands-on dengan berbagai lab:
+
+- [Altoro Mutual](http://www.altoromutual.com/)
+- [HackTheBox](https://www.hackthebox.com/)
+- [Root Me](https://www.root-me.org/)
+- [TryHackMe](https://tryhackme.com/)
+- [VulHub](https://vulhub.org/)
+- [Web Security Academy](https://portswigger.net/web-security)
+- [pwn.college](https://pwn.college/)
+
+## 🌐 Networking
+
+Pahami dasar-dasar jaringan dan keamanan:
+
+- Common Protocols
+- IDS (Intrusion Detection System)
+- IPS (Intrusion Prevention System)
+- Network Topologies
+- OSI Model
+- Types of Networks
+- VPN (Virtual Private Network)
+
+## 🔍 OWASP Top 10
+
+Jelajahi 10 kerentanan teratas OWASP:
+
+1. **Broken Access Control**
+2. **Cryptographic Failures**
+3. **Injection**
+4. **Insecure Design**
+5. **Security Misconfiguration**
+6. **Vulnerable and Outdated Components**
+7. **Identification and Authentication Failures**
+8. **Software and Data Integrity Failures**
+9. **Security Logging and Monitoring Failures**
+10. **Server-Side Request Forgery (SSRF)**
+
+## 🔐 OWASP Top 10 LLM
+
+Pahami OWASP Top 10 untuk Keamanan Large Language Model:
+
+1. **Prompt Injection**
+2. **Insecure Output Handling**
+3. **Training Data Poisoning**
+4. **Model Denial of Service**
+5. **Supply Chain Vulnerabilities**
+6. **Sensitive Information Disclosure**
+7. **Insecure Plugin Design**
+8. **Excessive Agency**
+9. **Overreliance**
+10. **Model Theft**
+
+## 🖥️ Operating Systems
+
+Pelajari sistem operasi dan keamanannya:
+
+- **Android**
+- **Linux**
+- **macOS**
+- **Windows**
+- **Operating System Hardening**
+
+## 🛡️ Security Testing
+
+Jelajahi berbagai metodologi pengujian keamanan:
+
+- **SAST** (Static Application Security Testing)
+- **DAST** (Dynamic Application Security Testing)
+- **IAST** (Interactive Application Security Testing)
+- **SCA** (Software Composition Analysis)
+- Testing Approaches
+
+## 📚 Terminology
+
+Pahami terminologi kunci dalam keamanan:
+
+- **CVE** (Common Vulnerabilities and Exposures)
+- **CVSS** (Common Vulnerability Scoring System)
+- **DMZ** (Demilitarized Zone)
+- **Defense in Depth**
+- **Honeypots**
+- **Jump Server**
+- **MFA vs 2FA**
+- **NIST Cybersecurity Framework**
+- **OAuth 2.0**
+- **SAML** (Security Assertion Markup Language)
+- **SIEM** (Security Information and Event Management)
+- **SSO** (Single Sign-On)
+
+## 💡 Threat Modeling
+
+Pelajari metodologi threat modeling:
+
+- **STRIDE**
+- **PASTA** (Process for Attack Simulation and Threat Analysis)
+- **Threat Modeling Fundamentals**
+
+## 🛠️ Tools
+
+Temukan tools yang umum digunakan dalam penetration testing:
+
+- **Aircrack-ng** - Wireless network security
+- **Burp Suite** - Web application security testing
+- **Metasploit** - Penetration testing framework
+- **Nmap** - Network discovery and security auditing
+- **SQLMap** - SQL injection testing
+- **Wireshark** - Network protocol analyzer
+- **ZAP Proxy** - Web application security scanner
+
+## 🐞 Vulnerabilities
+
+Pahami berbagai jenis kerentanan:
+
+- **Buffer Overflow**
+- **CSRF** (Cross-Site Request Forgery)
+- **Clickjacking**
+- **DNS Cache Poisoning**
+- **Directory Traversal**
+- **HTTP Parameter Pollution**
+- **HTTP Request Smuggling**
+- **Host Header Injection**
+- **IDOR** (Insecure Direct Object Reference)
+- **Insecure Deserialization**
+- **LDAP Injection**
+- **Open Redirect**
+- **Privilege Escalation**
+- **RCE** (Remote Code Execution)
+- **Race Condition**
+- **SQL Injection**
+- **Server-Side Template Injection**
+- **Session Fixation**
+- **Session Hijacking**
+- **Unrestricted File Upload**
+- **XML Injection**
+- **XSS** (Cross-Site Scripting)
+- **XXE** (XML External Entity)
+
+---
+
+## ⚠️ Pengalaman & Tips
+
+### 1️⃣ Tentang Social Media Hacking
+
+Banyak orang masuk ke dunia hacking hanya untuk meretas akun media sosial teman-teman mereka. **Perlu diketahui bahwa:**
+
+- Profesional IT di perusahaan media sosial jauh lebih cerdas dan berpengalaman
+- Tidak ada karier yang berkelanjutan dalam aktivitas seperti ini
+- Meretas akun orang lain dapat merusak struktur sosial korban dan meninggalkan bekas luka dalam hidup mereka
+- Seperti halnya dokter yang mengoperasi pasien, seorang ethical hacker harus memiliki standar moral yang tinggi
+
+### 2️⃣ Saat Bertemu Profesional Berpengalaman
+
+Ketika menemukan orang-orang profesional di platform online:
+
+- **Jangan langsung bertanya** tanpa melakukan riset sendiri terlebih dahulu
+- **Buat batas waktu** untuk mencoba menyelesaikan masalah sendiri
+- **Gunakan semua metode** seperti Google, AI, Forum, dan sumber lain
+- **Baru kemudian konsultasi** dengan para ahli
+- Ini akan meningkatkan kemampuan learning dan menghargai waktu orang lain
+
+### 💡 Prinsip Penting
+
+> **Hacking bukanlah sihir Harry Potter!** Anda tidak bisa meretas apapun tanpa membuat rencana yang tepat.
+
+- **Jangan menganggap mudah** - butuh waktu dan dedikasi yang besar
+- **Jangan mencari uang** sebagai motivasi utama - jadikan sebagai alasan sampingan
+- **Ikuti passion** sebagai alasan utama
+- **Konsistensi adalah kunci** - tidak akan selalu ada waktu luang
+- **90% tugas hacking** dilakukan melalui eksploitasi bug/kerentanan dalam sistem
+
+### 🐛 Bug Bounty
+
+Jika menemukan bug/kerentanan:
+- **Laporkan segera** pada program bug bounty perusahaan
+- Anda akan mendapat **rewards**, **Hall of Fame**, dan **uang**
+- **Jangan eksploitasi** untuk tujuan yang merugikan
+
+---
+
+## 🌐 Sumber Daya Tambahan
+
+### 📚 Must-Read Resources
+
+- [Phrack Magazine](http://phrack.org/) - Underground hacking magazine
+- [Phrack Issue 7 Article 3](http://phrack.org/issues/7/3.html) ⚠️ **Must Read**
+- [GTFOBins](https://gtfobins.github.io/) - Unix binaries exploitation
+
+### 📊 Career & Skills Research
+
+- [Top Cybersecurity Skills in High Demand - Champlain](https://online.champlain.edu/blog/top-cybersecurity-skills-in-high-demand)
+- [Most In-Demand Cybersecurity Skills 2025 - USCS Institute](https://www.uscsinstitute.org/cybersecurity-insights/blog/most-in-demand-cybersecurity-skills-you-must-have-in-2025)
+- [Top 5 Cybersecurity Careers - TechTarget](https://www.techtarget.com/whatis/feature/5-top-cybersecurity-careers)
+
+> 💡 **Tip:** Teliti ketiga website cybersecurity terakhir untuk menemukan domain yang sesuai dengan minat Anda. Gunakan AI untuk riset lebih mendalam.
+
+---
+
+`#BukanOmongKosong` `#IndonesiaCriticalThinking` `#BelajarBasic` `#Proses` `#MenghargaiKaryaOrangLain`
+
+---
 
 
+This roadmap is compiled from various sources for educational purposes. Please respect the original creators and use this knowledge ethically.
 
-#BukanOmongKosong
-#IndonesiaCriticalThinking
-#BelajarBasic
-#Proses
-#MenghargaiKaryaOrangLain
+---
+
+**Remember:** Use this knowledge responsibly and ethically. The goal is to protect and secure systems, not to cause harm.
