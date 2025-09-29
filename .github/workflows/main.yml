@@ -2,7 +2,7 @@ name: Auto Update Timestamp
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # Every 20 minutes
+    - cron: '*/59 * * * *'  # Every 20 minutes
   workflow_dispatch:
 
 jobs:
