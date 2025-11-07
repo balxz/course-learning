@@ -341,4 +341,4 @@ This roadmap is compiled from various sources for educational purposes. Please r
 
 **Remember:** Use this knowledge responsibly and ethically. The goal is to protect and secure systems, not to cause harm.
 
-> 2025-11-07 - 23:19:57
+> 2025-11-08 - 00:16:26
